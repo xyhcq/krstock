@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: KRStockOS - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/KRStockOS.res" /d "NDEBUG" /d "_AFXDLL" "D:\¡‘æ®øÒ»À\KRStockOS\KRStockOS.rc"" 
+Creating temporary file "C:\Users\Code\AppData\Local\Temp\RSP2B5D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"../ClinetBin/KRStockOS.pdb" /debug /machine:I386 /out:"../ClinetBin/KRStockOS.exe" /libpath:"../Lib" 
+".\Release\BootDlg.obj"
+".\Release\FilterSettingDlg.obj"
+".\Release\HQReportDlg.obj"
+".\Release\KeyDemonDlg.obj"
+".\Release\KRStockOS.obj"
+".\Release\KRStockOSDlg.obj"
+".\Release\Render.obj"
+".\Release\StdAfx.obj"
+".\Release\Style.obj"
+".\Release\webbrowser2.obj"
+".\Release\KRScrollVbar.obj"
+".\Release\KRTextListWidget.obj"
+".\Release\MemoryDC.obj"
+".\Release\SplitterColWidget.obj"
+".\Release\SplitterRowWidget.obj"
+".\Release\SystemButton.obj"
+".\Release\AmountAnalyzeWidget.obj"
+".\Release\FenBiWidget.obj"
+".\Release\HQFunction.obj"
+".\Release\HQWidget.obj"
+".\Release\IndexWidget.obj"
+".\Release\KLineWidget.obj"
+".\Release\KRWave.obj"
+".\Release\MSortListCtrl.obj"
+".\Release\StockAlgorithm.obj"
+".\Release\StockListWidget.obj"
+".\Release\StockToolsWiget.obj"
+".\Release\TextButton.obj"
+".\Release\Common.obj"
+".\Release\TopLevelExceptionFilter.obj"
+".\Release\KRStockOS.res"
+]
+Creating command line "link.exe @C:\Users\Code\AppData\Local\Temp\RSP2B5D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+KRStockOS.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

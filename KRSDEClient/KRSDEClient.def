@@ -1,0 +1,26 @@
+; KRSDEClient.def : Declares the module parameters for the DLL.
+
+LIBRARY      "KRSDEClient"
+DESCRIPTION  'KRSDEClient Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	KRSDE_Start							@1
+	KRSDE_Stop							@2
+	KRSDE_SetHWND						@3	
+	KRSDE_GetTickerSymbol				@4
+	KRSDE_TickerSymbolByName			@5
+	KRSDE_GetFinancial					@6
+	KRSDE_GetExRights					@7
+	KRSDE_GetKLine_Remote				@8
+	KRSDE_GetKLine_Local				@9
+	KRSDE_GetRealTimeQuotes				@10
+	KRSDE_GetAllRealTimeQuotes			@11
+	KRSDE_GetTradingRecord_Remote		@12
+	KRSDE_GetTradingRecord_Local        @13
+    KRSDE_GetF10Data_Remote             @14
+	KRSDE_GetHQBaseInfo                 @15
+	KRSDE_ShowWindow					@16
+	KRSDE_GetHYZhangFu                  @17
+	KRSDE_GetZhangSu                    @18  
+	KRSDE_GetKLine_Local_Free           @19

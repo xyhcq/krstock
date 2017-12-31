@@ -1,0 +1,357 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\KRStockOS.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\KRStockOS.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_KRSTOCKOS_DIALOG DIALOGEX 0, 0, 736, 488
+STYLE WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "",IDC_CLOSE,723,0,12,12,SS_NOTIFY
+    LTEXT           "",IDC_MAXIMIZE,710,0,12,12,SS_NOTIFY
+    LTEXT           "",IDC_MINIMIZE,696,0,12,12,SS_NOTIFY
+END
+
+IDD_KEYDEMOM_DIALOG DIALOG DISCARDABLE  0, 0, 157, 171
+STYLE WS_POPUP
+FONT 10, "宋体"
+BEGIN
+    LTEXT           "",IDC_CLOSE,147,0,10,11,SS_NOTIFY
+    EDITTEXT        IDC_INPUT,1,13,155,12,ES_AUTOHSCROLL | NOT WS_BORDER
+    LISTBOX         IDC_LIST,1,26,155,144,LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_BORDER | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_FILTERSETTING_DLG DIALOGEX 0, 0, 693, 535
+STYLE WS_POPUP
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "1分钟",IDC_1F,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,505,
+                    30,36,10
+    CONTROL         "5分钟",IDC_5F,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,545,
+                    30,36,10,WS_EX_TRANSPARENT
+    CONTROL         "15分钟",IDC_15F,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    585,30,40,10
+    CONTROL         "30分钟",IDC_30F,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    629,30,40,10
+    CONTROL         "60分钟",IDC_60F,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    505,48,40,10
+    CONTROL         "日线",IDC_240F,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    545,48,32,10
+    CONTROL         "周线",IDC_1200F,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    585,48,32,10
+    CONTROL         "声音提醒",IDC_WAVE_TIP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,508,135,48,10
+    GROUPBOX        "选择您需要的预警级别",IDC_STATIC,497,16,195,46
+    CONTROL         "大5浪1买-1买即将形成",IDC_ONEBUY1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,69,172,96,10
+    CONTROL         "大5浪1买-标准1买",IDC_ONEBUY2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,345,172,80,10
+    CONTROL         "大5浪1买-标准1买后回踩",IDC_ONEBUY3,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,69,344,104,10
+    CONTROL         "小5浪1买",IDC_5WAVEDOWN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,345,344,48,10
+    GROUPBOX        "其他设置",IDC_STATIC,498,121,195,28
+    CONTROL         "钢琴",IDC_RADIO_WAVE_GQ,"Button",BS_AUTORADIOBUTTON,564,
+                    135,32,10
+    CONTROL         "语音播报",IDC_RADIO_WAVE_YYBB,"Button",
+                    BS_AUTORADIOBUTTON,614,135,48,10
+    CONTROL         "盘整背离买点",IDC_PANZHENGBEILI,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,345,516,64,10
+    CONTROL         "回踩盘整",IDC_ONEBUY5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,69,516,48,10
+    LTEXT           "",IDC_CLOSE,680,0,12,12,SS_NOTIFY
+    GROUPBOX        "",IDC_STATIC,5,15,239,170
+    GROUPBOX        "",IDC_STATIC,250,15,237,170
+    GROUPBOX        "",IDC_STATIC,5,188,239,170
+    GROUPBOX        "",IDC_STATIC,250,188,237,170
+    GROUPBOX        "",IDC_STATIC,5,360,239,170
+    GROUPBOX        "",IDC_STATIC,250,360,237,170
+    GROUPBOX        "预警范围",IDC_STATIC,498,67,195,47
+    CONTROL         "600开头",IDC_WAVE_TIP2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,500,84,44,10
+    CONTROL         "300开头",IDC_WAVE_TIP3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,550,84,44,10
+    CONTROL         "000开头",IDC_WAVE_TIP4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,600,84,44,10
+    CONTROL         "002开头",IDC_WAVE_TIP5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,646,84,44,10
+    CONTROL         "只预警自选股",IDC_WAVE_TIP6,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,500,102,64,10
+END
+
+IDD_MYSTOCK_DIALOG DIALOG DISCARDABLE  0, 0, 771, 341
+STYLE WS_POPUP
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "",IDC_CLOSE,759,0,12,12,SS_NOTIFY
+    LTEXT           "",IDC_MAXIMIZE,745,0,12,12,SS_NOTIFY
+    LTEXT           "",IDC_MINIMIZE,733,0,12,12,SS_NOTIFY
+END
+
+IDD_BOOT_DLG DIALOG DISCARDABLE  0, 0, 312, 210
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDC_EXPLORER1,"{8856F961-340A-11D0-A96B-00C04FD705A2}",
+                    WS_TABSTOP,5,110,200,100
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "KRStockOS Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "KRStockOS\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2016\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "KRStockOS.EXE\0"
+            VALUE "ProductName", "KRStockOS 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_KRSTOCKOS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 729
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 481
+    END
+
+    IDD_KEYDEMOM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 164
+    END
+
+    IDD_FILTERSETTING_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 686
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 528
+    END
+
+    IDD_MYSTOCK_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 764
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 334
+    END
+
+    IDD_BOOT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 305
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_KLINE_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "右键菜单"
+    BEGIN
+        MENUITEM "A",                           IDM_A
+        POPUP "B"
+        BEGIN
+            MENUITEM "B1",                          IDM_B1
+            MENUITEM "B2",                          IDM_B2
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "C",                           IDM_C, CHECKED
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDR_OneBuy3             PNG     DISCARDABLE     "res\\OneBuy3.PNG"
+IDR_OneBuy0             PNG     DISCARDABLE     "res\\OneBuy0.PNG"
+IDR_OneBuy1             PNG     DISCARDABLE     "res\\OneBuy1.PNG"
+IDR_OneBuy2             PNG     DISCARDABLE     "res\\OneBuy2.PNG"
+IDR_5WaveDown           PNG     DISCARDABLE     "res\\5WaveDown.PNG"
+IDR_OneBuy4             PNG     DISCARDABLE     "res\\OneBuy4.PNG"
+IDR_BOOTBG              PNG     DISCARDABLE     "res\\BootBG.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_BOOT_DLG DLGINIT
+BEGIN
+    IDC_EXPLORER1, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x1f02, 0x0000, 0x0f81, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0008, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TITLE               "猎鲸狂人-股票分析系统 1.0 Demo"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\KRStockOS.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
